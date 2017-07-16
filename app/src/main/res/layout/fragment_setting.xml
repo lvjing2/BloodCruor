@@ -1,0 +1,107 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/background_gray"
+    tools:context="com.liwn.zzl.bloodcruor.SettingFragment">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="@color/color_white"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/input_line"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="@dimen/activity_vertical_margin"
+                    android:layout_marginBottom="@dimen/activity_vertical_margin"
+                    android:weightSum="10">
+
+                        <TextView
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textSize="16sp"
+                            android:textColor="@color/color_white"
+                            android:background="@drawable/input_text"
+                            android:paddingLeft="-14dp"
+                            android:paddingRight="-14dp"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="3"
+                            android:text="医院名称:" />
+
+                        <EditText
+                            android:id="@+id/hospital_name"
+                            android:backgroundTint="@color/input_text_field"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="7" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/input_line"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="@dimen/activity_vertical_margin"
+                    android:layout_marginBottom="@dimen/activity_vertical_margin"
+                    android:weightSum="10">
+
+                        <TextView
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textSize="16sp"
+                            android:textColor="@color/color_white"
+                            android:background="@drawable/input_text"
+                            android:paddingLeft="-14dp"
+                            android:paddingRight="-14dp"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="3"
+                            android:text="报告名称" />
+
+                        <EditText
+                            android:id="@+id/report_name"
+                            android:backgroundTint="@color/input_text_field"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="7" />
+                </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="@color/color_white"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+                <TextView
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:textColor="@color/color_white"
+                    android:background="@drawable/input_text_pink"
+                    android:paddingLeft="-14dp"
+                    android:paddingRight="-14dp"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="3"
+                    android:text="报告名称" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/tab2_img"
+            android:layout_margin="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+</LinearLayout>

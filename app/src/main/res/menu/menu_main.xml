@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.liwn.zzl.bloodcruor.MainActivity">
+
+        <item
+            android:id="@+id/menu_connect_device"
+            android:title="@string/menu_connect_device"/>
+
+    </menu>

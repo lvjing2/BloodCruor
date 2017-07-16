@@ -1,0 +1,113 @@
+<resources>
+  <string name="app_name">BloodCruor</string>
+  <string name="ext_storage_directory_name">BloodCruor</string>
+
+  <string name="menu_connect_device">连接设备</string>
+
+  <string name="index_setting">通道参数设置</string>
+
+  <string name="all_mark_title">所有的图标</string>
+  <string name="add_new_mark_by_this">更换图标</string>
+  <string name="send_file">系统信息</string>
+  <string name="cannot_access_file_system_hint">无法访问文件系统,请安装一个文件管理器.</string>
+  <string name="bins_not_import">请将系统文件导入到文件夹中.</string>
+
+  <string name="choose_and_send">选择文件并发送</string>
+  <string name="send_library">更新系统图库到设备</string>
+  <string name="send_download">云端下载最新图库到手机</string>
+  <string name="send_setting">更新设备参数</string>
+  <string name="send_file_result_succeed">图库更改成功!</string>
+  <string name="update_setting_result_succeed">设备设置更改成功!</string>
+  <string name="file_sending_title">文件发送中...</string>
+  <string name="file_sending_msg">文件发送进度...</string>
+  <string name="not_connected">未连接任何设备</string>
+  <string name="bluetooth_not_available">蓝牙不可用!</string>
+  <string name="unknown_device">未知设备</string>
+  <string name="scanning">扫描设备...</string>
+  <string name="select_device">选择连接的设备</string>
+  <string name="title_other_devices">其他设备</string>
+  <string name="button_scan">扫描新设备</string>
+  <string name="display_disconnected">未连接设备</string>
+  <string name="bt_not_enabled_leaving">蓝牙未启动,退出程序.</string>
+  <string name="parameter_setting">打印信息</string>
+  <string name="connected_to">成功连接到设备: </string>
+
+  <string name="cancle">取消</string>
+
+  <string name="version">版本号: </string>
+  <string name="all_samples_num">总库图标数: </string>
+  <string name="index_num">常用索引数: </string>
+  <string name="samples_num">常用索引数: </string>
+  <string name="A_samples_num">A库索引数: </string>
+  <string name="B_samples_num">B库索引数: </string>
+  <string name="A_index_title">A库常用索引</string>
+  <string name="B_index_title">B库常用索引</string>
+  <string name="A_show_time">A库显示时间: </string>
+  <string name="B_show_time">B库显示时间: </string>
+  <string name="time_unit">秒</string>
+  <string name="brightness">亮度: </string>
+  <string name="battery_type">电池类型: </string>
+  <string name="magnetic_switch">磁检测: </string>
+  <string name="low_voltage_switch">低电压检测: </string>
+  <string name="dump_switch">倾斜检测: </string>
+
+  <string name="not_synced">请将%1$s发送至设备!</string>
+  <string name="i_r_not_synced">请将%1$s和%2$s发送至相应的设备!</string>
+  <string name="please_synced">请通过蓝牙将更新的设置发送至设备</string>
+
+  <string-array name="gender">
+    <item>男</item>
+    <item>女</item>
+  </string-array>
+
+  <string name="battery_types_on">三元电池</string>
+  <string name="battery_types_off">锂电池</string>
+
+
+  <string name="I_name">icon100.bin</string>
+  <string name="R_name">rcon100.bin</string>
+  <string name="I_device_name">ZC-LEDBOARD</string>
+  <string name="R_device_name">ZC-TELECTRL</string>
+  <string name="factory_name">ZhongChe</string>
+
+  <string name="mark_replace_title">替换</string>
+  <string name="mark_replace_message">确定使用这个图标替换吗?</string>
+  <string name="dbClick_Exit">再按一次退出</string>
+
+
+  <string name="title_activity_login">登录</string>
+  <string name="title_activity_changePass">修改密码</string>
+
+  <!-- Strings related to login -->
+  <string name="logout">退出系统</string>
+  <string name="prompt_username">用户名</string>
+  <string name="defaule_username">ADMIN</string>
+  <string name="prompt_password">密码</string>
+  <string name="prompt_oldpassword">旧密码</string>
+  <string name="prompt_newpassword">新密码(8位数字)</string>
+  <string name="prompt_renewpassword">确认新密码(8位数字)</string>
+  <string name="action_sign_in">登录</string>
+  <string name="change_password">修改密码</string>
+  <string name="action_renew_password">修改密码</string>
+  <string name="error_incorrect_password">输入密码不正确</string>
+  <string name="error_invalid_new_password">新密码需为8位数字</string>
+  <string name="error_invalid_renew_password">确认密码与新密码不一致</string>
+  <string name="change_pass_succeed">成功修改密码</string>
+
+  <string name="premission_denied">未获得SD or BLE权限,程序部分功能无法使用.</string>
+  <string name="file_invalid">文件格式不正确.</string>
+  <string name="factory_name_title">标识名:</string>
+  <string name="device_name_title">设备名:</string>
+  <string name="or">或</string>
+  <string name="file_not_found">文件未找到.</string>
+  <string name="allowed_ble_device_name">请将蓝牙连接至: </string>
+  <string name="lib_not_found">图库文件不存在.</string>
+
+  <string name="downloading">正在下载最新图库...</string>
+  <string name="net_hit">请先连通网络.</string>
+  <string name="downlaod_success">下载成功!</string>
+  <string name="download_failed">下载失败!</string>
+
+  <string name="title_paired_devices">已配对设备</string>
+  <string name="none_paired"><![CDATA[<无设备]]></string>
+</resources>

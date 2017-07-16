@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#212121</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="color_red">#FF0000</color>
+    <color name="color_pink">#EA215A</color>
+    <color name="color_dark_pink">#E72159</color>
+    <color name="color_blue">#0000FF</color>
+    <color name="color_holo_blue_bright">#33B5E5</color>"
+    <color name="color_green">#00FF00</color>
+    <color name="color_black">#000000</color>
+    <color name="color_white">#ffffff</color>
+    <color name="color_gray">#cccccc</color>
+    <color name="color_border">#cccccc</color>
+    <color name="color_deep_gray">#B5B5B5</color>
+    <color name="color_transparent">#00000000</color>
+    <color name="color_yellow">#eec900</color>
+    <color name="main_botton_text_color">#ffffff</color>
+
+
+    <color name="button_color_1">#276EAC</color>
+    <color name="background_gray">#E4E4E3</color>
+    <color name="input_text_1">#6FC7D2</color>
+    <color name="input_text_pink">#E49A86</color>
+    <color name="input_text_blue">#6AB0E5</color>
+    <color name="input_text_field">#6BAFE5</color>
+    <color name="switch_enabled">#70BFE0</color>
+    <color name="switch_disabled">#EFBE79</color>
+</resources>

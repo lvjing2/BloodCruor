@@ -1,0 +1,122 @@
+<resources>
+    <string name="app_name">BloodCruor</string>
+    <string name="ext_storage_directory_name">BloodCruor</string>
+
+    <string name="menu_connect_device">Connect a device</string>
+
+    <string name="index_setting">Index</string>
+
+    <string name="all_mark_title">All Mark</string>
+    <string name="add_new_mark_by_this">Replace this mark</string>
+    <string name="send_file">Send file</string>
+    <string name="cannot_access_file_system_hint">Please install a File Manager.</string>
+    <string name="bins_not_import">please import 2 bins file and then restart app.</string>
+
+    <string name="choose_and_send">Choose file and send</string>
+    <string name="send_library">Update Marks Library To Device</string>
+    <string name="send_setting">Update Setting</string>
+    <string name="send_download">Download Marks Library From Cloud</string>
+    <string name="send_file_result_succeed">Update library succeed!</string>
+    <string name="update_setting_result_succeed">Update setting succeed!</string>
+    <string name="file_sending_title">File sending...</string>
+    <string name="file_sending_msg">File send progress...</string>
+    <string name="not_connected">You are not connected to a device</string>
+    <string name="bluetooth_not_available">Bluetooth is not available!</string>
+    <string name="unknown_device">Unknown device</string>
+    <string name="scanning">Scanning for devices...</string>
+    <string name="select_device">Select a device to connect</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="button_scan">Scan for devices</string>
+    <string name="display_disconnected">Not connected</string>
+    <string name="bt_not_enabled_leaving">Bluetooth was not enabled. Leaving BloodCruor.</string>
+    <string name="parameter_setting">setting</string>
+    <string name="connected_to">Connected to: </string>
+
+    <string name="cancle">Cancle</string>
+
+    <string name="version">Version: </string>
+    <string name="all_samples_num">All samples num: </string>
+    <string name="index_num">Index num: </string>
+    <string name="samples_num">Samples num: </string>
+    <string name="A_samples_num">A samples num: </string>
+    <string name="B_samples_num">B samples num: </string>
+    <string name="A_index_title">A</string>
+    <string name="B_index_title">B</string>
+    <string name="A_show_time">A show time: </string>
+    <string name="B_show_time">B show time: </string>
+    <string name="time_unit">s</string>
+    <string name="brightness">Brightness: </string>
+    <string name="battery_type">Battery type: </string>
+    <string name="magnetic_switch">Magnetic switch: </string>
+    <string name="low_voltage_switch">Low voltage switch: </string>
+    <string name="dump_switch">Dump switch: </string>
+
+    <string name="not_synced">%1$s not synchronized!</string>
+    <string name="i_r_not_synced">%1$s and %2$s not synchronized!</string>
+    <string name="please_synced">Please update setting by bluetooth.</string>
+
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string name="battery_types_on">Three cell battery</string>
+    <string name="battery_types_off">Lithium battery</string>
+
+    <string name="I_name">icon100.bin</string>
+    <string name="R_name">rcon100.bin</string>
+    <string name="I_device_name">ZC-LEDBOARD</string>
+    <string name="R_device_name">ZC-TELECTRL</string>
+    <string name="factory_name">ZhongChe</string>
+
+    <string name="mark_replace_title">Replace with this mark</string>
+    <string name="mark_replace_message">Are you sure you want to Replace this mark?</string>
+    <string name="dbClick_Exit">Click BACK again to exit.</string>
+
+
+    <string name="title_activity_login">Sign in</string>
+    <string name="title_activity_changePass">Change password</string>
+
+    <!-- Strings related to login -->
+    <string name="logout">Logout</string>
+    <string name="prompt_username">Username</string>
+    <string name="defaule_username">ADMIN</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_oldpassword">Old password</string>
+    <string name="prompt_newpassword">New password</string>
+    <string name="prompt_renewpassword">New password again</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="change_password">Change Password</string>
+    <string name="action_renew_password">Change Password</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_invalid_new_password">New password should be 8 digits.</string>
+    <string name="error_invalid_renew_password">Confirm password is different with new password.</string>
+    <string name="change_pass_succeed">Change password succeed.</string>
+
+    <string name="premission_denied">SD or BLE permission is denied.</string>
+    <string name="file_invalid">File is not valid.</string>
+    <string name="factory_name_title">Factory name: </string>
+    <string name="device_name_title">Device name: </string>
+    <string name="file_not_found">File not found.</string>
+    <string name="or">or</string>
+    <string name="allowed_ble_device_name">Please connect to: </string>
+    <string name="lib_not_found">Library is not existed.</string>
+
+    <string name="downloading">Downloading library...</string>
+    <string name="net_hit">Please connect the network firstly.</string>
+    <string name="downlaod_success">Download Successfully!</string>
+    <string name="download_failed">Download Failed!</string>
+
+
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="none_paired"><![CDATA[<No devices have been paired.]]></string>
+    <string-array name="send_command">
+        <item>get header</item>
+        <item>left</item>
+        <item>right</item>
+        <item>maintain</item>
+        <item>rangeName</item>
+        <item>rangeValue</item>
+        <item>hospitalInfo</item>
+    </string-array>
+</resources>
